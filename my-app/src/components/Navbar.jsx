@@ -11,6 +11,11 @@ const Navbar = () => {
       <Link to='/'>
       <h2>Onlineshop</h2>
       </Link>
+      <Link to={'/ProductContainer'}>
+        <h2>Products</h2>
+      </Link>
+      
+
       <Link to={"/login"}>
         <ul className='sign_in'>
           <li><a href="#">Sign In</a></li>

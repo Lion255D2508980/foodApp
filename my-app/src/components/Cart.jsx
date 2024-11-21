@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Cart.css'
+import { useEffect } from 'react'
 import Subtotal from './Subtotal'
 import { useStateValue } from './StateProvider'
 import CheckoutProduct from './CheckoutProduct'
 //import Products from './Products'
 
+
 const Cart = () => {
   const [{basket}, dispatch] = useStateValue()
+
   return (
     <div className='cart'>
         <div className="cart_left">
@@ -26,6 +29,8 @@ const Cart = () => {
           </div>
 
         </div>
+        
+        
         <div className="cart_right">
           
           <Subtotal/>

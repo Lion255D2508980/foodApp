@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Product.css'
 import {useStateValue}  from './StateProvider'
 
@@ -40,6 +40,7 @@ const Products = ({id,title,price,weight,image, rating}) => {
         
         <img className='product_img' src={image} alt="" />
         <button onClick={addTOBasket}>Add to Basket</button>
+        
 
     </div>
   )

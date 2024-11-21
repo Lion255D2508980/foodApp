@@ -2,7 +2,7 @@ import React from 'react'
 import { BsFillHandbagFill } from "react-icons/bs";
 import { Link, } from 'react-router-dom';
 import './Navbar.css'
-import { useStateValue } from '../StateProvider';
+import { useStateValue } from './StateProvider';
 
 const Navbar = () => {
   const [{basket}, dispatch] = useStateValue();

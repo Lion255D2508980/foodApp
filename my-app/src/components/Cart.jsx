@@ -1,7 +1,7 @@
 import React from 'react'
 import './Cart.css'
 import Subtotal from './Subtotal'
-import { useStateValue } from '../StateProvider'
+import { useStateValue } from './StateProvider'
 import CheckoutProduct from './CheckoutProduct'
 //import Products from './Products'
 

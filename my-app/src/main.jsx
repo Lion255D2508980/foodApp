@@ -2,8 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import {BrowserRouter as Routes} from 'react-router-dom';
-import reducer, {initialState} from "./reducer"
-import { StateProvider } from './StateProvider.jsx';
+import reducer, {initialState} from './components/reducer.jsx';
+import {StateProvider} from './components/StateProvider.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
